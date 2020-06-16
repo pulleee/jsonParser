@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace ConsoleApp1.DOs
 {
     [DataContract]
-    public class Project : AbstractDo
+    public class Project : AbstractIdentDo
     {
         [DataMember]
         public string expand { get; set; }
